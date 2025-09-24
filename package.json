@@ -81,7 +81,7 @@
     "readable-stream": "3.6.2"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "browserslist": [
     "> 1%",
