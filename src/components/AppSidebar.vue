@@ -83,27 +83,6 @@
                     </li>
                 </ul>
             </div>
-
-            <div class="menu-section">
-                <span class="menu-title" v-if="!collapsed">Others</span>
-                <ul class="menu">
-                    <li class="menu-item dropdown">
-                        <div class="menu-link" @click="toggleDropdown('others')">
-                            <i class="fas fa-ellipsis-h"></i>
-                            <span v-if="!collapsed">Others</span>
-                            <i class="fas fa-chevron-down dropdown-icon" :class="{ rotated: dropdowns.others }"
-                                v-if="!collapsed"></i>
-                        </div>
-                        <ul v-if="dropdowns.others && !collapsed" class="submenu">
-                            <li><router-link to="/others/simulation" class="menu-link">Simulation/Cost
-                                    Estimator</router-link></li>
-                            <li><router-link to="/others/efficiency-settings" class="menu-link">Efficiency
-                                    Settings</router-link></li>
-                            <li><router-link to="/others/esg" class="menu-link">ESG</router-link></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
         </nav>
 
         <!-- Pinned bottom logout -->
