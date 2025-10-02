@@ -25,6 +25,7 @@ export default {
       ['convergent', 'Convergent'],
       ['fonda', 'Fonda'],
       ['kimyew','KimYew'],
+      ['tencent', 'TenCent']
     ]);
 
     // Match pattern: testuser@{company}
